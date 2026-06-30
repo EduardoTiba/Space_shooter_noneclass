@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Diário_do_projeto",
+  "name":"Diário_do_projeto",
+  "parent":{
+    "name":"Notes",
+    "path":"folders/Notes.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
