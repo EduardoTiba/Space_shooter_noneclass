@@ -3,7 +3,7 @@ vel = 3.5;
 
 
 
-#region Método movimentação
+#region Método movimentação e de tiro 
 
 //iniciando o sistema de movimentação do jogador:
 //Método de controlar o player
