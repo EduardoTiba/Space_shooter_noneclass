@@ -1,5 +1,5 @@
 //variável para ser a velocidade do player
-vel = 4;
+vel = 3.5;
 
 //iniciando o sistema de movimentação do jogador:
 //Método de controlar o player
@@ -15,8 +15,8 @@ controla_player =  function(){
 	_atirar = keyboard_check(vk_space) or mouse_check_button(mb_left);
 
 	if (_right) { x += vel }
-	if (_left) { x -= vel }
-	if (_up) { y -= vel }
-	if (_down) { y += vel }
+	if (_left)	{ x -= vel }
+	if (_up)	{ y -= vel }
+	if (_down)	{ y += vel }
 	
 }
