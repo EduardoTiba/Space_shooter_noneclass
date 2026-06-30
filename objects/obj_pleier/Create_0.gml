@@ -9,7 +9,7 @@ controla_player =  function(){
 	_left	= keyboard_check(ord("A")) or keyboard_check(vk_left);
 	_up		= keyboard_check(ord("W")) or keyboard_check(vk_up);
 	_down	= keyboard_check(ord("S")) or keyboard_check(vk_down);
-	_atirar = keyboard_check(vk_space)
+	_atirar = keyboard_check(vk_space) or mouse_check_button_pressed(mb_left);
 
 
 
