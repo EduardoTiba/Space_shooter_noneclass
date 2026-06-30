@@ -28,6 +28,7 @@
   "name":"Space_shooter_noneclass",
   "resources":[
     {"id":{"name":"rm_partida","path":"rooms/rm_partida/rm_partida.yy",},},
+    {"id":{"name":"spr_background_0","path":"sprites/spr_background_0/spr_background_0.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
