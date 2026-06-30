@@ -1,0 +1,17 @@
+//iniciando o sistema de movimentação do jogador:
+//Método de controlar o player
+controla_player =  function(){
+	//pegando os inputs
+	var _right, _left, _up, _down, _atirar;
+	
+	//atribuindo a cada variável uma tecla específica
+	_right	= keyboard_check(ord("D")) or keyboard_check(vk_right);
+	_left	= keyboard_check(ord("A")) or keyboard_check(vk_left);
+	_up		= keyboard_check(ord("W")) or keyboard_check(vk_up);
+	_down	= keyboard_check(ord("S")) or keyboard_check(vk_down);
+	_atirar = keyboard_check(vk_space)
+
+
+
+	
+}
