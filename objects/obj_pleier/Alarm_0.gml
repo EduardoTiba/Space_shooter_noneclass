@@ -1,0 +1,1 @@
+///@description Alarme de intervalo entre os tiros
