@@ -31,9 +31,13 @@ controla_player =  function(){
 	{
 		//criando o tiro
 		var _tiro = instance_create_layer(x, y, "Tiro", obj_tiro);
-		//definindo algumas coisas para os tiros
+		//definindo algumas coisas para os tiros:
+		//definindo sua velocidade
 		_tiro.speed = 10;
-		_tiro.image_speed = 10
+		//definindo a velocidade de animação
+		_tiro.image_speed = 10;
+		//definindo a direção, ou seja, sempre indo para cima
+		_tiro.direction = 90;
 	}
 	
 }
