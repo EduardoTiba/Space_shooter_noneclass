@@ -1,7 +1,8 @@
 //variável para ser a velocidade do player
 vel = 3.5;
 
-
+//tempo de intervalo dos tiro
+intervalo = 10;
 
 #region Método movimentação e de tiro 
 
@@ -42,7 +43,7 @@ controla_player =  function(){
 			_tiro.direction = 90;
 			
 			//Após o tiro, terá um tempo até o próximo tiro
-			alarm[0] = 10;
+			alarm[0] = intervalo;
 		}
 	}
 	
