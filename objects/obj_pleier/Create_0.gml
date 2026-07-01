@@ -26,6 +26,16 @@ controla_player =  function(){
 	var _velv = (_down - _up) * vel;
 	y += _velv;
 	
+	//Ao apertar o espaço, será criado um tiro
+	if (_atirar)
+	{
+		//criando o tiro
+		var _tiro = instance_create_layer(x, y, "Tiro", obj_tiro);
+		//definindo algumas coisas para os tiros
+		_tiro.speed = 10;
+		_tiro.image_speed = 10
+	}
+	
 }
 
 #endregion
