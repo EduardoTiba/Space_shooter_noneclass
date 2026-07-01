@@ -22,10 +22,19 @@ controla_player =  function(){
 	//variável de movimento horizontal
 	var _velh = (_right - _left) * vel;
 	x += _velh
-	
+	//impedindo que o player saia pela direita
+	if (x <= 20) { x = 20 }
+	//impedindo que saia pela esquerda
+	if (x >= room_width - sprite_width/2) { x = room_width - sprite_width/2 }
+	//em "sprite_width/2" estamos nos referindo a metade da sprite, assim a metade que ficava para fora, agora fica certo
+		
 	//variável de movimento vertical
 	var _velv = (_down - _up) * vel;
 	y += _velv;
+	
+	//limitando a posição y do player
+	y = clamp(y, 19, room_height - 19);
+	//o 19 é a metade da altura da sprite
 	
 	//Ao apertar o espaço, será criado um tiro
 	if (_atirar)
