@@ -45,6 +45,7 @@ controla_player =  function(){
 	//Ao apertar o espaço, será criado um tiro
 	if (_atirar)
 	{
+		//Mas, só pode atirar se o intervalo entre os tiros já passou
 		if (alarm[0] <= 0)
 		{			
 			//ligando a variável "level_tiro" com os três tipos de tiro
