@@ -4,6 +4,9 @@ vel = 3.5;
 //tempo de intervalo dos tiro
 intervalo = 10;
 
+//qual tipo de tiro eu estou agora
+level_tiro = 1;
+
 #region Método movimentação e de tiro 
 
 //iniciando o sistema de movimentação do jogador:
@@ -44,7 +47,15 @@ controla_player =  function(){
 	{
 		if (alarm[0] <= 0)
 		{
-			tiro2();
+			if (level_tiro == 1)
+			{
+				tiro1();
+			}
+			else
+			if (level_tiro == 2)
+			{
+				tiro2();
+			}
 			//Após o tiro, sempre terá um tempo até o próximo tiro
 			alarm[0] = intervalo;
 		}
