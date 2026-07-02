@@ -46,7 +46,8 @@ controla_player =  function(){
 	if (_atirar)
 	{
 		if (alarm[0] <= 0)
-		{
+		{			
+			//ligando a variável "level_tiro" com os três tipos de tiro
 			if (level_tiro == 1)
 			{
 				tiro1();
@@ -55,6 +56,11 @@ controla_player =  function(){
 			if (level_tiro == 2)
 			{
 				tiro2();
+			}
+			else
+			if (level_tiro == 3)
+			{
+				tiro3();
 			}
 			//Após o tiro, sempre terá um tempo até o próximo tiro
 			alarm[0] = intervalo;
@@ -93,5 +99,11 @@ tiro2 = function(){
 	segundo_tiro.image_speed = 10;
 }
 
-
+//Método do tiro tipo 3
+tiro3 = function(){
+	//aqui vai gerar um tiro no meio
+	tiro1();
+	//aqui vai criar os tiros dos lados
+	tiro2();
+}
 #endregion
