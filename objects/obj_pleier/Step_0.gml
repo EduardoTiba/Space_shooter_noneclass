@@ -2,11 +2,11 @@
 controla_player();
 
 //mudando o valor do level do tiro
-if (keyboard_check_pressed(vk_up)) 
+if (keyboard_check_pressed(ord("O")))
 {
 	level_tiro--;
 }
-if (keyboard_check_pressed(vk_down)) 
+if (keyboard_check_pressed(ord("L"))) 
 {
 	level_tiro++;
 }
