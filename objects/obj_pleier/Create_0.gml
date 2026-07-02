@@ -41,10 +41,20 @@ controla_player =  function(){
 	
 	//Ao apertar o espaço, será criado um tiro
 	if (_atirar)
-	{
+{
 		if (alarm[0] <= 0)
 		{
-			//criando o tiro
+			tiro1();
+			//Após o tiro, sempre terá um tempo até o próximo tiro
+			alarm[0] = intervalo;
+		}
+	
+}
+
+
+//criando o método do tiro 1
+tiro1 = function(){
+			//criando o tiro1 
 			var _tiro = instance_create_layer(x, y, "Tiro", obj_tiro);
 			//definindo algumas coisas para os tiros:
 			//definindo sua velocidade
@@ -53,12 +63,12 @@ controla_player =  function(){
 			_tiro.image_speed = 10;
 			//definindo a direção, ou seja, sempre indo para cima
 			_tiro.direction = 90;
-			
-			//Após o tiro, terá um tempo até o próximo tiro
-			alarm[0] = intervalo;
-		}
-	}
+}
+
+
+tiro2 = function(){
 	
 }
+
 
 #endregion
