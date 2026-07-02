@@ -41,15 +41,17 @@ controla_player =  function(){
 	
 	//Ao apertar o espaço, será criado um tiro
 	if (_atirar)
-{
+	{
 		if (alarm[0] <= 0)
 		{
-			tiro1();
+			tiro2();
 			//Após o tiro, sempre terá um tempo até o próximo tiro
 			alarm[0] = intervalo;
 		}
 	
+	}
 }
+
 
 
 //criando o método do tiro 1
@@ -65,9 +67,19 @@ tiro1 = function(){
 			_tiro.direction = 90;
 }
 
-
+//Método dos dois tiros simultâneos
 tiro2 = function(){
-	
+	//um deles vai ficar mais pra esquerda
+	var primeiro_tiro = instance_create_layer(x-10, y,"Tiro", obj_tiro);
+	primeiro_tiro.speed = 10;
+	primeiro_tiro.direction = 90;
+	primeiro_tiro.image_speed = 10;
+
+	//e o outro vai ficar mais pra direita
+	var segundo_tiro = instance_create_layer(x+10, y, "tiro", obj_tiro);	
+	segundo_tiro.speed = 10;
+	segundo_tiro.direction = 90;
+	segundo_tiro.image_speed = 10;
 }
 
 
