@@ -4,11 +4,11 @@ controla_player();
 #region Sistema da Troca dos levels do tiro
 
 //mudando o valor do level do tiro
-if (keyboard_check_pressed(ord("O")))
+if (keyboard_check_pressed(ord("L")))
 {
 	level_tiro--;
 }
-if (keyboard_check_pressed(ord("L"))) 
+if (keyboard_check_pressed(ord("O"))) 
 {
 	level_tiro++;
 }
