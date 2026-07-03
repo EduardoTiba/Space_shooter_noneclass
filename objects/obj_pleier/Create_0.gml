@@ -2,7 +2,7 @@
 vel = 3.5;
 
 //vida do player
-vida = 3;
+vida = 5;
 
 //escudo
 escudo = 3;
@@ -129,15 +129,14 @@ ganha_level_tiro = function(){
 #endregion
 
 #region Métodos
-desenha_icone = function(sprite = spr_icone_vida, repeticoes){
+
+desenha_icone = function(sprite = spr_icone_vida, repeticoes = 1, posicaoY){
 	
-	//primeiro pegando o valor da altura da JANELA, não da viewport
-	var _alturaGUI = display_get_gui_height();
 	//valor do primeiro ícone no eixo x
 	var _XX = 20;
-	repeat(vida){
+	repeat(repeticoes){
 	//desenhando a sprite definida dentro de "desenha_icone"
-	draw_sprite(sprite, 0, _XX, _alturaGUI - 40);
+	draw_sprite(sprite, 0, _XX, posicaoY);
 	//a próxima sprite não estará no mesmo lugar que a antiga
 	_XX += 30;
 }
