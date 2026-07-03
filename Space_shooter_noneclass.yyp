@@ -32,6 +32,7 @@
   "resources":[
     {"id":{"name":"Diário_do_projeto","path":"notes/Diário_do_projeto/Diário_do_projeto.yy",},},
     {"id":{"name":"obj_pleier","path":"objects/obj_pleier/obj_pleier.yy",},},
+    {"id":{"name":"obj_power_up","path":"objects/obj_power_up/obj_power_up.yy",},},
     {"id":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},},
     {"id":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
     {"id":{"name":"rm_partida","path":"rooms/rm_partida/rm_partida.yy",},},
