@@ -107,4 +107,9 @@ tiro3 = function(){
 	//aqui vai criar os tiros dos lados
 	tiro2();
 }
+
+//Método de ganhar level de tiro ao tocar no power up
+ganha_level_tiro = function(){
+	level_tiro++;
+}
 #endregion
