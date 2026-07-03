@@ -127,3 +127,21 @@ ganha_level_tiro = function(){
 	if (level_tiro < 3){ level_tiro++ }
 }
 #endregion
+
+#region Métodos
+desenha_icone = function(sprite){
+	
+	//primeiro pegando o valor da altura da JANELA, não da viewport
+	var _alturaGUI = display_get_gui_height();
+	//valor do primeiro ícone no eixo x
+	var _XX = 20;
+	repeat(vida){
+	//desenhando a sprite definida dentro de "desenha_icone"
+	draw_sprite(sprite, 0, _XX, _alturaGUI - 40);
+	//a próxima sprite não estará no mesmo lugar que a antiga
+	_XX += 30;
+}
+
+}
+
+#endregion
