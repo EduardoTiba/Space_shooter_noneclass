@@ -130,6 +130,7 @@ ganha_level_tiro = function(){
 
 #region Métodos
 
+//método de desenhar os ícones da camada GUI
 desenha_icone = function(sprite = spr_icone_vida, repeticoes = 1, posicaoY){
 	
 	//valor do primeiro ícone no eixo x
