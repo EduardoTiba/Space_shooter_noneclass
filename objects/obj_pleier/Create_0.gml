@@ -1,3 +1,5 @@
+#region Variáveis
+
 //variável para ser a velocidade do player
 vel = 3.5;
 
@@ -12,6 +14,8 @@ intervalo = 10;
 
 //qual tipo de tiro eu estou agora
 level_tiro = 1;
+
+#endregion
 
 #region Método movimentação e de tiro 
 
