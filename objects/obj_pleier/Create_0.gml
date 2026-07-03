@@ -113,6 +113,9 @@ ganha_level_tiro = function(){
 	//primeiro checa se pode aumentar, em outras palavras, limitando
 	//SE for maior ou igual a 3, então se mantém no 3
 	level_tiro = clamp(level_tiro, 1, 3);
+	/* Ta... A parte de cima não é necessária, mas ta rodando do jeito que eu 
+	queria
+	*/
 	
 	//Somente pode aumentar de level, se for menor que o level 3
 	if (level_tiro < 3){ level_tiro++ }
