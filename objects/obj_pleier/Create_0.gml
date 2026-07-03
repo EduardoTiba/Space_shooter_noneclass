@@ -4,6 +4,9 @@ vel = 3.5;
 //vida do player
 vida = 3;
 
+//escudo
+escudo = 3;
+
 //tempo de intervalo dos tiro
 intervalo = 10;
 
