@@ -129,7 +129,7 @@ ganha_level_tiro = function(){
 #endregion
 
 #region Métodos
-desenha_icone = function(sprite){
+desenha_icone = function(sprite = spr_icone_vida, repeticoes){
 	
 	//primeiro pegando o valor da altura da JANELA, não da viewport
 	var _alturaGUI = display_get_gui_height();
