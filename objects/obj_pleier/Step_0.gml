@@ -1,6 +1,9 @@
 //controlando o player com o método
 controla_player();
 
+//Se clicar no tab, vai poder aparecer ou desaparecer o debug dos levels dos tiros
+if (keyboard_check_released(vk_tab)) { global.debug_level_tiro = !global.debug_level_tiro }
+
 #region Sistema da Troca dos levels do tiro
 
 //mudando o valor do level do tiro
