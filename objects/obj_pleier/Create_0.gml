@@ -136,7 +136,7 @@ desenha_icone = function(sprite = spr_icone_vida, repeticoes = 1, posicaoY){
 	var _XX = 20;
 	repeat(repeticoes){
 	//desenhando a sprite definida dentro de "desenha_icone"
-	draw_sprite(sprite, 0, _XX, posicaoY);
+	draw_sprite_ext(sprite, 0, _XX, posicaoY, 1, 1, 0, c_white, 0.4);
 	//a próxima sprite não estará no mesmo lugar que a antiga
 	_XX += 30;
 }
