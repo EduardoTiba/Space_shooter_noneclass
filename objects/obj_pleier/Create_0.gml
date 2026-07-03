@@ -1,6 +1,9 @@
 //variável para ser a velocidade do player
 vel = 3.5;
 
+//vida do player
+vida = 3;
+
 //tempo de intervalo dos tiro
 intervalo = 10;
 
