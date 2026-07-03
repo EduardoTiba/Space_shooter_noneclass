@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"GUI_layer",
-    "path":"folders/Sprites/GUI_layer.yy",
+    "name":"Player&Tiro",
+    "path":"folders/Sprites/Player&Tiro.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
