@@ -110,6 +110,11 @@ tiro3 = function(){
 
 //Método de ganhar level de tiro ao tocar no power up
 ganha_level_tiro = function(){
-	level_tiro++;
+	//primeiro checa se pode aumentar, em outras palavras, limitando
+	//SE for maior ou igual a 3, então se mantém no 3
+	if (level_tiro >= 3){ level_tiro = 3 }
+	
+	//Somente pode aumentar de level, se for menor que o level 3
+	if (level_tiro < 3){ level_tiro++ }
 }
 #endregion
