@@ -2,3 +2,12 @@
 Today I have started the classes (or tutorial) of space shooter. I already have done one before, but it doesn´t mean that I know everything.
 I´m very happy to start this project, it is a achievement for me, to at least arrive in these classes :).
 Well, this is it. Movementation is okay for me, top-down movement, I already know how to do it. pretty cool.
+
+02/06/26 day 3
+Yeah, I forgot to write something yesterday. But no worries, i´m still having fun. Today I´ve made the sistem of the bullets and stuff. Like
+programmed methods to each type of shoot, shoot 1, 2 and 3. It was pretty chill to do and I hope, after this project, that I could have a chance
+to make another game, or prototypes.
+I´m wrinting this at 11 pm and I really should sleep... So yeah :) I´m going to do it right now. Tomorrow I´ll try to not forget to write down my
+day here.
+
+Actually, this is really the second day. eeehhhhh.... Consider that "day 3" means "day 2" for now, ok?
