@@ -148,4 +148,10 @@ desenha_icone = function(sprite = spr_icone_vida, repeticoes = 1, posicaoY){
 
 }
 
+
+//Método para perder vida
+perde_vida = function(){
+	vida--;
+}
+
 #endregion
