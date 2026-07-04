@@ -32,6 +32,7 @@
   "name":"Space_shooter_noneclass",
   "resources":[
     {"id":{"name":"Diário_do_projeto","path":"notes/Diário_do_projeto/Diário_do_projeto.yy",},},
+    {"id":{"name":"obj_particula_tiro","path":"objects/obj_particula_tiro/obj_particula_tiro.yy",},},
     {"id":{"name":"obj_pleier","path":"objects/obj_pleier/obj_pleier.yy",},},
     {"id":{"name":"obj_power_up","path":"objects/obj_power_up/obj_power_up.yy",},},
     {"id":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},},
@@ -47,6 +48,7 @@
     {"id":{"name":"spr_icone_escudo","path":"sprites/spr_icone_escudo/spr_icone_escudo.yy",},},
     {"id":{"name":"spr_icone_vida","path":"sprites/spr_icone_vida/spr_icone_vida.yy",},},
     {"id":{"name":"spr_jogador","path":"sprites/spr_jogador/spr_jogador.yy",},},
+    {"id":{"name":"spr_particula_power_up","path":"sprites/spr_particula_power_up/spr_particula_power_up.yy",},},
     {"id":{"name":"spr_powerup","path":"sprites/spr_powerup/spr_powerup.yy",},},
     {"id":{"name":"spr_tiro_contorno","path":"sprites/spr_tiro_contorno/spr_tiro_contorno.yy",},},
     {"id":{"name":"spr_tiro_sem_contorno","path":"sprites/spr_tiro_sem_contorno/spr_tiro_sem_contorno.yy",},},
