@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_particula_power_up",
-    "path":"sprites/spr_particula_power_up/spr_particula_power_up.yy",
+    "name":"spr_particula_tiro",
+    "path":"sprites/spr_particula_tiro/spr_particula_tiro.yy",
   },
   "spriteMaskId":null,
   "visible":true,
