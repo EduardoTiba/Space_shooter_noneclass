@@ -2,7 +2,7 @@
 controla_player();
 
 //Fazendo o escudo atualmente usado, seguir o player
-if (escudo_atual)
+if (instance_exists(escudo_atual))
 {
 	escudo_atual.x = x;
 	escudo_atual.y = y;
@@ -35,4 +35,4 @@ if (keyboard_check_pressed(ord("O")))
 
 #endregion
 
-show_debug_message(escudo)
+show_debug_message(escudo_atual)
