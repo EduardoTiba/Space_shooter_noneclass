@@ -165,8 +165,8 @@ perde_vida = function(){
 //Método para a perda dos escudos
 usa_escudo = function(){
 	
-	//só pode perder o escudo se ele for maior que 0
-	if (escudo > 0)
+	//só pode perder o escudo se ele for maior que 0 e só pode criar o escudo se não tiver um escudo atual
+	if (escudo > 0) and (escudo_atual == noone)
 	{
 		escudo--;
 		//criando o escudo na posição do pleier
