@@ -1,6 +1,13 @@
 //controlando o player com o método
 controla_player();
 
+//Fazendo o escudo atualmente usado, seguir o player
+if (escudo_atual)
+{
+	escudo_atual.x = x;
+	escudo_atual.y = y;
+}
+
 //Ao apertar enter o player deve perder um de vida
 if (keyboard_check_pressed(vk_enter)) 
 {

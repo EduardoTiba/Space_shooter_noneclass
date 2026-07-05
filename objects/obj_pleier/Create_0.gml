@@ -8,6 +8,8 @@ vida = 5;
 
 //escudo
 escudo = 3;
+//A variável abaixo vai guardar o id do escudo criado
+escudo_atual = noone;
 
 //tempo de intervalo dos tiro
 intervalo = 10;
@@ -168,7 +170,7 @@ usa_escudo = function(){
 	{
 		escudo--;
 		//criando o escudo na posição do pleier
-		instance_create_layer(x, y, "Escudo", obj_escudo);
+		escudo_atual = instance_create_layer(x, y, "Escudo", obj_escudo);
 	}
 
 }
