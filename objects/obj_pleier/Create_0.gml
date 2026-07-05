@@ -161,7 +161,7 @@ perde_vida = function(){
 
 
 //Método para a perda dos escudos
-perde_escudo = function(){
+usa_escudo = function(){
 	
 	//só pode perder o escudo se ele for maior que 0
 	if (escudo > 0)
