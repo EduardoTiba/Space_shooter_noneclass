@@ -14,6 +14,9 @@ escudo_atual = noone;
 //tempo de intervalo dos tiro
 intervalo = 10;
 
+//tempo de invencibilidade do player
+timer_invencivel = 1;
+
 //qual tipo de tiro eu estou agora
 level_tiro = 1;
 
