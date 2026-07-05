@@ -159,4 +159,16 @@ perde_vida = function(){
 	if (vida <= 0) { instance_destroy() }
 }
 
+
+//Método para a perda dos escudos
+perde_escudo = function(){
+	
+	//só pode perder o escudo se ele for maior que 0
+	if (escudo > 0)
+	{
+		escudo--;
+	}
+}
+
+
 #endregion

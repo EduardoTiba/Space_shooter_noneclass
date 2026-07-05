@@ -7,6 +7,10 @@ if (keyboard_check_pressed(vk_enter))
 	perde_vida();
 }
 
+if (keyboard_check_pressed(ord("E")))
+{
+	perde_escudo();
+}
 //Se clicar no tab, vai poder aparecer ou desaparecer o debug dos levels dos tiros
 if (keyboard_check_released(vk_tab)) { global.debug_level_tiro = !global.debug_level_tiro }
 
@@ -24,4 +28,4 @@ if (keyboard_check_pressed(ord("O")))
 
 #endregion
 
-show_debug_message(vida)
+show_debug_message(escudo)
