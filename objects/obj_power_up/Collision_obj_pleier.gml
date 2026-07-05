@@ -6,4 +6,7 @@ other.ganha_level_tiro();
 
 //Depois de ser destruída pelo jogador, o power up vai criar uma
 //partícula
-instance_create_layer(x, y, layer, obj_particula_tiro);
+var particula_power_up = instance_create_layer(x, y, layer, obj_particula_tiro);
+//personalizando as partículas de destruição dos power ups
+randomise();
+particula_power_up.image_angle = irandom_range(0, 359);
