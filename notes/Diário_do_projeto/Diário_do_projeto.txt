@@ -21,3 +21,10 @@ Well, to end this day, I want to write down this: I´m almost reaching my achiev
 game, pretty better than the other. For now is just to continue making prototypes and doing the classes :);
 
 Bye, and have a good night, morning or afternoon.
+
+04/07/26 day 4
+Hi, again. Today we put, in the game, the particles of the destruction of the power ups and started the system of the shield (i´m pretty vibing to see how
+we´re going to programm this) and.... Yeah, It was everything.
+I won´t say that today was a focus day, it´s saturday and I had piano class and we went to a restaurant to lunch with my uncle. But It was a good day actually.
+Tomorrow i´ll try to focus a bit more. I´ll just TRY because i´m not kidda.... focused...? But I´m still having chill moments while I´m programming, so... that what
+is the important thing to be proud of in this vacation.
