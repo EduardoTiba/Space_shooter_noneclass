@@ -35,7 +35,7 @@
   ],
   "name":"spr_escudo",
   "nineSlice":null,
-  "origin":4,
+  "origin":9,
   "parent":{
     "name":"Power_up",
     "path":"folders/Sprites/Power_up.yy",
@@ -124,7 +124,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":19,
-    "yorigin":29,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
