@@ -45,6 +45,7 @@
     {"id":{"name":"spr_bg_1","path":"sprites/spr_bg_1/spr_bg_1.yy",},},
     {"id":{"name":"spr_bg_2","path":"sprites/spr_bg_2/spr_bg_2.yy",},},
     {"id":{"name":"spr_bg_3","path":"sprites/spr_bg_3/spr_bg_3.yy",},},
+    {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},},
     {"id":{"name":"spr_fg","path":"sprites/spr_fg/spr_fg.yy",},},
     {"id":{"name":"spr_icone_escudo","path":"sprites/spr_icone_escudo/spr_icone_escudo.yy",},},
     {"id":{"name":"spr_icone_vida","path":"sprites/spr_icone_vida/spr_icone_vida.yy",},},
