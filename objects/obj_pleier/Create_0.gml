@@ -167,9 +167,10 @@ usa_escudo = function(){
 	if (escudo > 0)
 	{
 		escudo--;
+		//criando o escudo na posição do pleier
+		instance_create_layer(x, y, "Escudo", obj_escudo);
 	}
-	//criando o escudo na posição do pleier
-	instance_create_layer(x, y, "Escudo", obj_escudo);
+
 }
 
 
