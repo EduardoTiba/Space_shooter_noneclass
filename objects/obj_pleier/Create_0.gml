@@ -159,11 +159,15 @@ desenha_icone = function(sprite = spr_icone_vida, repeticoes = 1, posicaoY){
 //Método para perder vida
 perde_vida = function(){
 	
-	//perda de vida só é possível se for maior que 0
-	if (vida > 0){ vida-- }
+	//só toma dano se não estiver invencível
+	if (timer_invencivel > 0) { return }
 	
-	//se a vida for menor ou igual a 0, então a nave do player se destrói
-	if (vida <= 0) { instance_destroy() }
+		//perda de vida só é possível se for maior que 0
+		if (vida > 0){ vida-- }
+		
+		//se a vida for menor ou igual a 0, então a nave do player se destrói
+		if (vida <= 0) { instance_destroy() }
+
 }
 
 
