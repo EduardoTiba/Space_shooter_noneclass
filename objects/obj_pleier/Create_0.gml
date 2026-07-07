@@ -29,6 +29,13 @@ level_tiro = 1;
 //iniciando o sistema de movimentação do jogador:
 //Método de controlar o player
 controla_player =  function(){
+	
+	//O timer só diminui seu valor se for maior que 0
+	if (timer_invencivel > 0)
+	{
+		//diminuindo o timer de invencibilidade, pois esse método rodará o tempo todo
+		timer_invencivel--;
+	}
 	//pegando os inputs
 	var _right, _left, _up, _down, _atirar;
 	
@@ -163,7 +170,13 @@ perde_vida = function(){
 	if (timer_invencivel > 0) { return }
 	
 		//perda de vida só é possível se for maior que 0
-		if (vida > 0){ vida-- }
+		if (vida > 0)
+		{
+			vida--; 
+			
+			//após isso, o timer em invencibilidade inicia
+			timer_invencivel = tempo_invencivel;
+		}
 		
 		//se a vida for menor ou igual a 0, então a nave do player se destrói
 		if (vida <= 0) { instance_destroy() }
