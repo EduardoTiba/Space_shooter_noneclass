@@ -66,6 +66,9 @@ controla_player =  function(){
 	y = clamp(y, 19, room_height - 19);
 	//o 19 é a metade da altura da sprite
 	
+	//checagem se há escudo ou não
+	usando_escudo();
+	
 	//Ao apertar o espaço, será criado um tiro
 	if (_atirar)
 	{
@@ -197,5 +200,26 @@ usa_escudo = function(){
 
 }
 
+
+//Método que armazena a ação do escudo com o pleier
+usando_escudo = function(){
+	
+	//Fazendo o escudo atualmente usado, seguir o player
+	if (instance_exists(escudo_atual))
+	{
+		escudo_atual.x = x;
+		escudo_atual.y = y;
+		
+		//deixando o player invencível enquanto está com o escudo
+		timer_invencivel = 10;
+		/*Poderia colocar qualquer valor, já que estamos dizendo que durante a "existência" do nosso escudo
+		o timer estará continuamente sendo ajustado para 10*/
+	}
+
+}
+/* Esse método ficará dentro do método "controla_player", pois esse método ta no step, portanto sempre ficará checando se há o escudo ou não.
+Lembrando que, provavelmente não tem o problema de não reconhecer o método "usando_escudo" durante a cchecagem, pois o programa vai primeiro
+"ler" todos nossos métodos e depois ficar checando no step ;)
+*/
 
 #endregion

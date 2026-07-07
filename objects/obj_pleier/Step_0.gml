@@ -1,17 +1,6 @@
-//controlando o player com o método
+//controlando o player e checando suas outras propriedades com o método
 controla_player();
 
-//Fazendo o escudo atualmente usado, seguir o player
-if (instance_exists(escudo_atual))
-{
-	escudo_atual.x = x;
-	escudo_atual.y = y;
-	
-	//deixando o player invencível enquanto está com o escudo
-	timer_invencivel = 10;
-	/*Poderia colocar qualquer valor, já que estamos dizendo que durante a "existência" do nosso escudo
-	o timer estará continuamente sendo ajustado para 10*/
-}
 
 //Ao apertar enter o player deve perder um de vida
 if (keyboard_check_pressed(vk_enter)) 
