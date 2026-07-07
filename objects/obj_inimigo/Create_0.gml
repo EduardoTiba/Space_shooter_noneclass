@@ -1,7 +1,8 @@
 //tempo inicial até disparar um tiro
 timer_disparo_inicial = game_get_speed(gamespeed_fps) * 2;
 //tempo após o primeiro disparo
-timer_disparo = game_get_speed(gamespeed_fps);
+randomise();
+timer_disparo = random_range(1, 2) * game_get_speed(gamespeed_fps);
 
 alarm[0] = timer_disparo_inicial;
 
