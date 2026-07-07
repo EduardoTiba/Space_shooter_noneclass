@@ -14,8 +14,10 @@ escudo_atual = noone;
 //tempo de intervalo dos tiro
 intervalo = 10;
 
-//tempo de invencibilidade do player
-timer_invencivel = 1;
+//tempo de invencibilidade do player, ou seja, o tempo em frames que ficará sem tomar dano
+tempo_invencivel = game_get_speed(gamespeed_fps);
+//timer de invencibilidade, inicia em 0, pois ao iniciar o jogo, não terá invencibilidade para o jogador
+timer_invencivel = 0;
 
 //qual tipo de tiro eu estou agora
 level_tiro = 1;
