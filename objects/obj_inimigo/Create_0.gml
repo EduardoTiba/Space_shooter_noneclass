@@ -20,4 +20,9 @@ destruido = function(){
 	instance_destroy();
 	instance_create_layer(x, y, "Explosao", obj_explosao_inimigo);
 
+	//Quando a nave inimiga for destruída, tem uma chance de 10% de gerar um power up
+	randomise();
+	var _chance = random(100);
+	if (_chance >= 90) { instance_create_layer(x, y, "Power_ups", obj_power_up) }
+
 }
