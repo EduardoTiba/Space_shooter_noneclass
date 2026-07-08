@@ -176,9 +176,11 @@ perde_vida = function(){
 		if (vida > 0)
 		{
 			vida--; 
-			
 			//após isso, o timer em invencibilidade inicia
 			timer_invencivel = tempo_invencivel;
+			
+			//E por fim, o alarme 1 é ajustado, ele será o tempo no qual a nave do player irá ficar piscando após tomar dano
+			alarm[1] = 60;
 		}
 		
 		//se a vida for menor ou igual a 0, então a nave do player se destrói
