@@ -41,5 +41,11 @@ destruido = function(){
 tomando_dano = function(){
 	
 	//toma dano somente se a vida for maior que 0
-	if (vida > 0) { vida-- }
+	if (vida > 0) 
+	{
+		//tomando dano
+		vida--; 
+		//Efeito em cor vermelha para sinalizar o dano
+		alarm[1] = 10;
+	}
 }

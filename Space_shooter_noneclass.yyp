@@ -35,6 +35,7 @@
   "name":"Space_shooter_noneclass",
   "resources":[
     {"id":{"name":"Diário_do_projeto","path":"notes/Diário_do_projeto/Diário_do_projeto.yy",},},
+    {"id":{"name":"debugador","path":"objects/debugador/debugador.yy",},},
     {"id":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},},
     {"id":{"name":"obj_explosao_inimigo","path":"objects/obj_explosao_inimigo/obj_explosao_inimigo.yy",},},
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},

@@ -29,4 +29,4 @@ if (keyboard_check_pressed(ord("O")))
 
 #endregion
 
-show_debug_message(timer_invencivel)
+//show_debug_message(timer_invencivel)
