@@ -12,3 +12,12 @@ atirando = function(){
 	var _tiro_inimigo1 = instance_create_layer(x, y, "Tiro", obj_tiro_inimigo1);
 	_tiro_inimigo1.vspeed = 4;
 }
+
+//método para a ação ao colidir com o player
+destruido = function(){
+	
+	//Ao colidir com o player, a nave se destrói e cria a partícula, respectivamente
+	instance_destroy();
+	instance_create_layer(x, y, "Explosao", obj_explosao_inimigo);
+
+}
