@@ -28,3 +28,10 @@ we´re going to programm this) and.... Yeah, It was everything.
 I won´t say that today was a focus day, it´s saturday and I had piano class and we went to a restaurant to lunch with my uncle. But It was a good day actually.
 Tomorrow i´ll try to focus a bit more. I´ll just TRY because i´m not kidda.... focused...? But I´m still having chill moments while I´m programming, so... that what
 is the important thing to be proud of in this vacation.
+
+08/07/26 day 6
+As you noticed, I didn´t write anything of the day 5 and I don´t even know if this is really the sixth day. But just pretend that is. Well... Speaking about what
+I have done today let´s start by programming the damage of the player´s bullet, importing the animation of the enemy´s destruction, when the player and the enemy take
+any damage, they stand 10 to 60 frames in red color and to end the day we have programmed a chance to drop a power up, when an enemy dies.
+I think that it´s all, surely i´m forgetting something, but I liked to make the visual stuff of damage.
+I´ll try to keep writing here, and... Bye.
