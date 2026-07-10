@@ -69,6 +69,9 @@ controla_player =  function(){
 	//checagem se há escudo ou não
 	usando_escudo();
 	
+	//criando o escudo
+	usa_escudo();
+	
 	//Ao apertar o espaço, será criado um tiro
 	if (_atirar)
 	{
@@ -147,6 +150,7 @@ ganha_level_tiro = function(){
 	//Somente pode aumentar de level, se for menor que o level 3
 	if (level_tiro < 3){ level_tiro++ }
 }
+
 #endregion
 
 #region Métodos
@@ -189,12 +193,15 @@ perde_vida = function(){
 //Método para a perda dos escudos
 usa_escudo = function(){
 	
-	//só pode perder o escudo se ele for maior que 0 e só pode criar o escudo se não tiver um escudo atual
-	if (escudo > 0) and (escudo_atual == noone)
+	if (keyboard_check(ord("E")))
 	{
-		escudo--;
-		//criando o escudo na posição do pleier
-		escudo_atual = instance_create_layer(x, y, "Escudo", obj_escudo);
+		//só pode perder o escudo se ele for maior que 0 e só pode criar o escudo se não tiver um escudo atual
+		if (escudo > 0) and (escudo_atual == noone)
+		{
+			escudo--;
+			//criando o escudo na posição do pleier
+			escudo_atual = instance_create_layer(x, y, "Escudo", obj_escudo);
+		}
 	}
 
 }

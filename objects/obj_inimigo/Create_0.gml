@@ -1,6 +1,15 @@
 #region Variáveis desse objeto
 vida = 6;
 
+//Aqui, estamos mandando checar se o inimigo faz parte da sequencia (vá para o step event para ver o uso dessa variável)
+criado_na_sequence = in_sequence;
+/*Por que estamos checando no create?
+R: Quando a nave inimiga for criada ela checará se ela faz parte de uma sequencia, e isso deve ocorrer somente uma vez, pois se a gente checar no step
+quando acabar a sequence, vai indicar que a nave não faz parte da sequence, assim não poderemos mais manipular a nave
+
+Vá para o step
+*/
+
 #endregion
 
 
