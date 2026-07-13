@@ -1,5 +1,5 @@
 #region Variáveis desse objeto
-vida = 6;
+vida = 4;
 
 //Aqui, estamos mandando checar se o inimigo faz parte da sequencia (vá para o step event para ver o uso dessa variável)
 criado_na_sequence = in_sequence;
