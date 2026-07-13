@@ -1,1 +1,1 @@
-//show_debug_message(obj_inimigo.vida);
+show_debug_message(obj_waves.alarm[0]);
