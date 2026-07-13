@@ -35,3 +35,9 @@ I have done today let´s start by programming the damage of the player´s bullet
 any damage, they stand 10 to 60 frames in red color and to end the day we have programmed a chance to drop a power up, when an enemy dies.
 I think that it´s all, surely i´m forgetting something, but I liked to make the visual stuff of damage.
 I´ll try to keep writing here, and... Bye.
+
+10/07/26 day 7
+Tons of thing to understand today, we saw the variable "in_sequence" and we started to built the enemy waves using sequences. It was kidda confusing to got what the teacher
+said about destroying the enemy created from the sequence, at first I didn´t got it but I have read the manual and tried to explain in the, comment code part, what we said
+to gamemaker at that code.
+I haven´t watched to many classes, but the ones that I studied really will help me with future projects.
