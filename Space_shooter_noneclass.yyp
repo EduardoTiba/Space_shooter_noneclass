@@ -49,6 +49,7 @@
     {"id":{"name":"rm_tutorial","path":"rooms/rm_tutorial/rm_tutorial.yy",},},
     {"id":{"name":"sc_functions","path":"scripts/sc_functions/sc_functions.yy",},},
     {"id":{"name":"sq_wave1","path":"sequences/sq_wave1/sq_wave1.yy",},},
+    {"id":{"name":"sq_wave1b","path":"sequences/sq_wave1b/sq_wave1b.yy",},},
     {"id":{"name":"sq_wave2","path":"sequences/sq_wave2/sq_wave2.yy",},},
     {"id":{"name":"spr_bg_0","path":"sprites/spr_bg_0/spr_bg_0.yy",},},
     {"id":{"name":"spr_bg_1","path":"sprites/spr_bg_1/spr_bg_1.yy",},},
