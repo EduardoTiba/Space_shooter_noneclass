@@ -31,7 +31,7 @@ maquina_de_estados = function(){
 			//se a posição y dele for menor que 160, então ele vai indo para baixo
 			if (y < 160)
 			{
-				vspeed = 4;
+				vspeed = 2;
 			}
 			else
 			if (y >= 160) 
