@@ -1,0 +1,1 @@
+tomando_dano();
