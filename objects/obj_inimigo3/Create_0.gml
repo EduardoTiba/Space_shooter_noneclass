@@ -6,6 +6,9 @@ estado = "chegando"
 /* Inicialmente, o inimigo 3 vai estar "chegando" na tela de partida, depois ele vai parar, 
 carregar o tiro e disparar, repete isso 3 vezes e vai embora */
 
+//timer de carregando o tiro (3 segundos)
+timer_carregando_tiro = game_get_speed(gamespeed_fps) * 3;
+
 #region tempo de dispáro dos tiros
 
 //tempo inicial até disparar um tiro
@@ -36,20 +39,26 @@ maquina_de_estados = function(){
 			else
 			if (y >= 160) 
 			{
-				show_message("Parei");
+				//quando ele chegar na posição correta, ele muda de estado
+				estado = "carregando";
 			}
 		}
+		//Se estiver em "chegando", ao ler o código, a checagem deve acabar aqui, sem ler as expressões abaixo
+		break
+		
+		case "carregando":
+		{
+			//parando de se mover
+			vspeed = 0;
+			
+			//deve esperar 3 segundos, tempo de carregar o tiro
+		}
+		break
 		
 	}
 }
 
-//método para a criação do tiro
-atirando = function(){
-	
-	var _tiro_inimigo1 = instance_create_layer(x, y, "Tiro", obj_tiro_inimigo1);
-	_tiro_inimigo1.vspeed = 4;
-}
-
+s
 
 //método dos efeitos no inimigo 3 quando ele tomar dano
 tomando_dano = function(){
