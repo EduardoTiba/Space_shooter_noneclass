@@ -9,18 +9,6 @@ carregar o tiro e disparar, repete isso 3 vezes e vai embora */
 //timer de carregando o tiro (3 segundos)
 timer_carregando_tiro = game_get_speed(gamespeed_fps) * 3;
 
-#region tempo de dispáro dos tiros
-
-//tempo inicial até disparar um tiro
-timer_disparo_inicial = game_get_speed(gamespeed_fps) * 2;
-//tempo após o primeiro disparo
-randomise();
-timer_disparo = random_range(1, 2) * game_get_speed(gamespeed_fps);
-
-alarm[0] = timer_disparo_inicial;
-
-#endregion
-
 
 #region Métodos
 
@@ -58,7 +46,6 @@ maquina_de_estados = function(){
 	}
 }
 
-s
 
 //método dos efeitos no inimigo 3 quando ele tomar dano
 tomando_dano = function(){
