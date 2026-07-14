@@ -6,9 +6,10 @@ estado = "chegando"
 /* Inicialmente, o inimigo 3 vai estar "chegando" na tela de partida, depois ele vai parar, 
 carregar o tiro e disparar, repete isso 3 vezes e vai embora */
 
-//timer de carregando o tiro (3 segundos)
-timer_carregando_tiro = game_get_speed(gamespeed_fps) * 3;
-
+//tempo de carregando o tiro (3 segundos)
+tempo_carregando_tiro = game_get_speed(gamespeed_fps) * 3;
+//timer inicia em 0
+timer_carregando_tiro = 0;
 
 #region Métodos
 
@@ -39,7 +40,14 @@ maquina_de_estados = function(){
 			//parando de se mover
 			vspeed = 0;
 			
-			//deve esperar 3 segundos, tempo de carregar o tiro
+			//aumentando o valor do timer até chegar no valor do tempo
+			timer_carregando_tiro++;
+			
+			//quando o timer tiver o mesmo valor que o tempo, ele muda de estado
+			if (timer_carregando_tiro >= tempo_carregando_tiro)
+			{
+				estado = "atirando";
+			}
 		}
 		break
 		
