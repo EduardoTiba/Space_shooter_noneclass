@@ -41,3 +41,9 @@ Tons of thing to understand today, we saw the variable "in_sequence" and we star
 said about destroying the enemy created from the sequence, at first I didn´t got it but I have read the manual and tried to explain in the, comment code part, what we said
 to gamemaker at that code.
 I haven´t watched to many classes, but the ones that I studied really will help me with future projects.
+
+13/07/26 day 8
+God. We have just done the system of waves and it´s so difficult, we used sequences, and I´m not quite expert on it. However I did it, somehow. moreover, today we did the system
+to limitate the waves, like, don´t let the game get bad, and stuff.
+For now I should just continue, and if there is any question... Just watch again the classes or ask in forum or DC severs
+
