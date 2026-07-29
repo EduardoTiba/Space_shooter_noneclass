@@ -47,3 +47,8 @@ God. We have just done the system of waves and it´s so difficult, we used seque
 to limitate the waves, like, don´t let the game get bad, and stuff.
 For now I should just continue, and if there is any question... Just watch again the classes or ask in forum or DC severs
 
+14/07/26 day 9
+Again... A difficult day. The most difficult part was the programmation of the third enemy, introducing parenting system and state machines, kinda fun to use, but the real
+difficult part was the parent stuff, my code was different from the teacher´s code. But... Me, with my gamedev skills, I could adaptate my code to use the parent. At first
+I was a bit nervous about it, the different code, but at the end, I´m pretty happy that I could solve it, that´s part of the gamedev.
+Quick message: I loved the class of state machines, it´s so much fun and very professional stuff. I liked it.
