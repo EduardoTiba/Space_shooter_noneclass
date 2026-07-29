@@ -52,3 +52,9 @@ Again... A difficult day. The most difficult part was the programmation of the t
 difficult part was the parent stuff, my code was different from the teacher´s code. But... Me, with my gamedev skills, I could adaptate my code to use the parent. At first
 I was a bit nervous about it, the different code, but at the end, I´m pretty happy that I could solve it, that´s part of the gamedev.
 Quick message: I loved the class of state machines, it´s so much fun and very professional stuff. I liked it.
+
+28/07/26 day 10
+Hi, i´m back. Today was a quick gamedev day, ´cause my classes already have started, and i´m kinda worried.... 
+But a slow progress is better than just abandon the project, in my opinion. Well let´s write about the classes: nothing too much hard, we started the state of shooting of the
+enemy 3. He waits three seconds then shoots, then back to the state of charging. Just :D
+To finish, I hope that I won´t abandon this project. 
