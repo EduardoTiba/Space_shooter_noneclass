@@ -46,14 +46,23 @@ maquina_de_estados = function(){
 			//quando o timer tiver o mesmo valor que o tempo, ele muda de estado
 			if (timer_carregando_tiro >= tempo_carregando_tiro)
 			{
+				//após dar o tempo de carga, ele vai para o estado de atirar
 				estado = "atirando";
+				
+				//depois ele reseta o timer
+				timer_carregando_tiro = 0;
 			}
 		}
 		break
 		
 		case "atirando":
 		{
+			//criando o tiro tipo 1
+			var tiro_inimigo3_1 = instance_create_layer(x, y, "Tiro", obj_tiro_inimigo3_tipo1);
+			tiro_inimigo3_1.vspeed = 2
 			
+			//após atirar ele volta ao estado de carregar, pra não ficar gerando um monte de tiro
+			estado = "carregando";
 		}
 		break
 	}
