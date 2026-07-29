@@ -51,6 +51,10 @@ maquina_de_estados = function(){
 		}
 		break
 		
+		case "atirando":
+		{
+			
+		}
 	}
 }
 
