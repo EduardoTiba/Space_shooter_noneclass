@@ -82,7 +82,9 @@ maquina_de_estados = function(){
 		
 		case "atirando 2":
 		{
-			
+			//criando o segundo tiro de tiro 
+			var tiro_inimigo3_2 = instance_create_layer(x, y, "Tiro", obj_tiro_inimigo3_tipo2);
+			tiro_inimigo3_2.vspeed = 2;
 		}
 		break
 	}
