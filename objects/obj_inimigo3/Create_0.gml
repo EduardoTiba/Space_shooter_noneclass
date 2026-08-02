@@ -46,8 +46,12 @@ maquina_de_estados = function(){
 			//quando o timer tiver o mesmo valor que o tempo, ele muda de estado
 			if (timer_carregando_tiro >= tempo_carregando_tiro)
 			{
-				//após dar o tempo de carga, ele vai para o estado de atirar
-				estado = "atirando";
+				//depois do tempo da carregar, o inimigo 3 escolhe um dos dois tipos de tiro
+				randomise();
+				var _tipo_de_tiro = choose("atirando", "atirando 2");
+				
+				//após dar o tempo de carga, ele vai para o estado de atirar que foi escolhido
+				estado = _tipo_de_tiro;
 				
 				//depois ele reseta o timer
 				timer_carregando_tiro = 0;
@@ -57,12 +61,28 @@ maquina_de_estados = function(){
 		
 		case "atirando":
 		{
-			//criando o tiro tipo 1
-			var tiro_inimigo3_1 = instance_create_layer(x, y, "Tiro", obj_tiro_inimigo3_tipo1);
-			tiro_inimigo3_1.vspeed = 2
-			
+			//só poderá atirar se o jogador não tiver sido destruído, para evitar o erro do pleier morrer e ele continuar procurando o x e y dele pra atirar
+			if (instance_exists(obj_pleier))
+			{
+				//encontrado a direção do player
+				var _direction_to_pleier = point_direction(x, y, obj_pleier.x, obj_pleier.y);
+				//criando o tiro tipo 1
+				var tiro_inimigo3_1 = instance_create_layer(x, y, "Tiro", obj_tiro_inimigo3_tipo1);
+
+				tiro_inimigo3_1.direction = _direction_to_pleier;
+				tiro_inimigo3_1.speed = 2;
+				tiro_inimigo3_1.image_angle = _direction_to_pleier + 90;
+				/* Como a sprite desse tiro ele está virado para baixo, o ângulo normal dele é 270, então temos que somar 90 para
+				ficar certinho e bonitinho */
+			}
 			//após atirar ele volta ao estado de carregar, pra não ficar gerando um monte de tiro
 			estado = "carregando";
+		}
+		break
+		
+		case "atirando 2":
+		{
+			
 		}
 		break
 	}
