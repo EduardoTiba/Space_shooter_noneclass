@@ -58,3 +58,9 @@ Hi, i´m back. Today was a quick gamedev day, ´cause my classes already have st
 But a slow progress is better than just abandon the project, in my opinion. Well let´s write about the classes: nothing too much hard, we started the state of shooting of the
 enemy 3. He waits three seconds then shoots, then back to the state of charging. Just :D
 To finish, I hope that I won´t abandon this project. 
+
+02/08/26 day 11
+I´m back. Today we have finished the type 1 of the shooting system of the enemy 3. Next we´re going to programm the second type of shooting. It was very calm to do, but very
+useful.
+I know that I should work here more, but my classes have started and I´m kidda depressed... But when I have the will and the time I come here to learn. Well, this was the 
+eleventh day.
