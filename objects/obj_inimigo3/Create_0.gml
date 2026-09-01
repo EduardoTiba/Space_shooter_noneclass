@@ -7,7 +7,7 @@ estado = "chegando"
 carregar o tiro e disparar, repete isso 3 vezes e vai embora */
 
 //tempo de carregando o tiro (3 segundos)
-tempo_carregando_tiro = game_get_speed(gamespeed_fps) * 1;
+tempo_carregando_tiro = game_get_speed(gamespeed_fps) * 3;
 //timer inicia em 0
 timer_carregando_tiro = 0;
 
