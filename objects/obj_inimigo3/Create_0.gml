@@ -129,6 +129,7 @@ maquina_de_estados = function(){
 		{
 			if (decide_direcao_saida == false)
 			{
+				randomise();
 				//escolhe uma velocidade na horizontal aleatória
 				hspeed = irandom_range(-2, 2); 
 				//escolhe uma velocidade vertical, somente pra cima
@@ -137,6 +138,9 @@ maquina_de_estados = function(){
 				//após decidir uma vez, ele já decidiu, então não roda mais esse código
 				decide_direcao_saida = true;
 			}
+			
+			//durante esse estado, SE este inimigo sair por cima da room ele se destrói
+			if (y <= -32) { instance_destroy() }
 		}
 		break
 	}
