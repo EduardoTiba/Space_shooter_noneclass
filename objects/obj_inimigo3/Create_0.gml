@@ -11,6 +11,9 @@ tempo_carregando_tiro = game_get_speed(gamespeed_fps) * 3;
 //timer inicia em 0
 timer_carregando_tiro = 0;
 
+//variável que contará os tiros do tipo2. Sempre que chegar em 3 vezes ele muda de estado
+contador_dos_tiros = 0;
+
 #region Métodos
 
 //máquina de estados
@@ -55,6 +58,10 @@ maquina_de_estados = function(){
 				
 				//depois ele reseta o timer
 				timer_carregando_tiro = 0;
+				
+				//aumentando o contador de tiro
+				contador_dos_tiros++;
+				/* A ideia é que quando chegar em 3, ele muda de estado */
 			}
 		}
 		break
@@ -75,8 +82,13 @@ maquina_de_estados = function(){
 				/* Como a sprite desse tiro ele está virado para baixo, o ângulo normal dele é 270, então temos que somar 90 para
 				ficar certinho e bonitinho */
 			}
-			//após atirar ele volta ao estado de carregar, pra não ficar gerando um monte de tiro
-			estado = "carregando";
+			
+			/* 
+			só volta ao estado de carregando, se ainda não atirou 3 vezes e 
+			CASO já tenha atirado 3 vezes ele vai ao estado de fugir 
+			*/
+			if (contador_dos_tiros < 3) { estado = "carregando" }
+			else { estado = "fugindo" }
 		}
 		break
 		
@@ -100,7 +112,12 @@ maquina_de_estados = function(){
 				_angulo_tiro2 += 25;
 			}
 			
-			estado = "carregando";
+			/* 
+			só volta ao estado de carregando, se ainda não atirou 3 vezes e 
+			CASO já tenha atirado 3 vezes ele vai ao estado de fugir 
+			*/
+			if (contador_dos_tiros < 3) { estado = "carregando" }
+			else { estado = "fugindo" }
 		}
 		break
 	}
