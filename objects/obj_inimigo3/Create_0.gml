@@ -14,6 +14,10 @@ timer_carregando_tiro = 0;
 //variável que contará os tiros do tipo2. Sempre que chegar em 3 vezes ele muda de estado
 contador_dos_tiros = 0;
 
+//variável de controle, para fazer esta nave escolher a direção de saída somente um vez
+decide_direcao_saida = false;
+/* Será usada no estado de "fugindo" */
+
 #region Métodos
 
 //máquina de estados
@@ -118,6 +122,21 @@ maquina_de_estados = function(){
 			*/
 			if (contador_dos_tiros < 3) { estado = "carregando" }
 			else { estado = "fugindo" }
+		}
+		break
+		
+		case "fugindo":
+		{
+			if (decide_direcao_saida == false)
+			{
+				//escolhe uma velocidade na horizontal aleatória
+				hspeed = irandom_range(-2, 2); 
+				//escolhe uma velocidade vertical, somente pra cima
+				vspeed = choose(-1, -2);
+			
+				//após decidir uma vez, ele já decidiu, então não roda mais esse código
+				decide_direcao_saida = true;
+			}
 		}
 		break
 	}
