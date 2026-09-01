@@ -7,7 +7,7 @@ estado = "chegando"
 carregar o tiro e disparar, repete isso 3 vezes e vai embora */
 
 //tempo de carregando o tiro (3 segundos)
-tempo_carregando_tiro = game_get_speed(gamespeed_fps) * 3;
+tempo_carregando_tiro = game_get_speed(gamespeed_fps) * 1;
 //timer inicia em 0
 timer_carregando_tiro = 0;
 
@@ -82,11 +82,24 @@ maquina_de_estados = function(){
 		
 		case "atirando 2":
 		{
-			//criando o segundo tiro de tiro 
-			var tiro_inimigo3_2 = instance_create_layer(x, y, "Tiro", obj_tiro_inimigo3_tipo2);
-			tiro_inimigo3_2.vspeed = 2;
+		/* O tiro 2 ele vai ser criado três vezes, esquerda, centro e direita */
+		
+		//O primeiro valor desta variável será do angulo do tiro da esquerda
+		var _angulo_tiro2 = 245;
+		
+			//criando o tiro 3 vezes
+			repeat(3)
+			{
+				var _tiro_tipo2 = instance_create_layer(x, y, "Tiro", obj_tiro_inimigo3_tipo2);
+				
+				//definindo os valores desse tipo de tiro
+				_tiro_tipo2.speed = 4;
+				_tiro_tipo2.direction = _angulo_tiro2;
+				
+				//após criar 1 tiro, o ângulo do próximo fica maior
+				_angulo_tiro2 += 25;
+			}
 			
-			//voltando para o estado de carregando
 			estado = "carregando";
 		}
 		break
