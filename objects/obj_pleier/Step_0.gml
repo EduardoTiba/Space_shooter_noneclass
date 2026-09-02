@@ -1,18 +1,18 @@
 //controlando o player e checando suas outras propriedades com o método
 controla_player();
 
-//após o jogador tomar dano, ele ficará 60 frames com a alternância entre sua cor padrâo e vermelho
-if (timer_invencivel > 0) 
-{
-	var _cor = choose(c_white, c_red);
-	image_blend = _cor;
-}
-//Se o timer de invencibilidade acabar, a nave do player volta para a cor original
-if (timer_invencivel <= 0)
-{
-	image_blend = c_white;
+////após o jogador tomar dano, ele ficará 60 frames com a alternância entre sua cor padrâo e vermelho
+//if (timer_invencivel > 0) 
+//{
+//	var _cor = choose(c_white, c_red);
+//	image_blend = _cor;
+//}
+////Se o timer de invencibilidade acabar, a nave do player volta para a cor original
+//if (timer_invencivel <= 0)
+//{
+//	image_blend = c_white;
 	
-}
+//}
 
 #region Debugs
 
