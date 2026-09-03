@@ -44,6 +44,7 @@
     {"id":{"name":"obj_particula_tiro","path":"objects/obj_particula_tiro/obj_particula_tiro.yy",},},
     {"id":{"name":"obj_pleier","path":"objects/obj_pleier/obj_pleier.yy",},},
     {"id":{"name":"obj_power_up","path":"objects/obj_power_up/obj_power_up.yy",},},
+    {"id":{"name":"obj_screenshake","path":"objects/obj_screenshake/obj_screenshake.yy",},},
     {"id":{"name":"obj_tiro_inimigo1","path":"objects/obj_tiro_inimigo1/obj_tiro_inimigo1.yy",},},
     {"id":{"name":"obj_tiro_inimigo3_tipo1","path":"objects/obj_tiro_inimigo3_tipo1/obj_tiro_inimigo3_tipo1.yy",},},
     {"id":{"name":"obj_tiro_inimigo3_tipo2","path":"objects/obj_tiro_inimigo3_tipo2/obj_tiro_inimigo3_tipo2.yy",},},
