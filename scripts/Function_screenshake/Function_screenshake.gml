@@ -1,4 +1,2 @@
-function screenshake(intensidade = 0){
-	
-	
+function screenshake(intensidade = 0){	
 }
