@@ -182,10 +182,16 @@ perde_vida = function(){
 			vida--; 
 			//após isso, o timer em invencibilidade inicia
 			timer_invencivel = tempo_invencivel;
+			
+			screenshake(10);
 		}
 		
 		//se a vida for menor ou igual a 0, então a nave do player se destrói
-		if (vida <= 0) { instance_destroy() }
+		if (vida <= 0) 
+		{
+			instance_destroy();
+			screenshake(60);	
+		}
 
 }
 
