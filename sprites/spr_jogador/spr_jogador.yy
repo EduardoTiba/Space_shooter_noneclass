@@ -27,7 +27,7 @@
   ],
   "name":"spr_jogador",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Player&Tiro",
     "path":"folders/Sprites/Player&Tiro.yy",
@@ -91,7 +91,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":18,
+    "xorigin":21,
     "yorigin":19,
   },
   "swatchColours":null,
