@@ -108,7 +108,7 @@ tiro1 = function(){
 	var _tiro = instance_create_layer(x, y, "Tiro", obj_tiro);
 	//definindo algumas coisas para os tiros:
 	//definindo sua velocidade
-	_tiro.speed = 10;
+	//_tiro.speed = 10;
 	//definindo a velocidade de animação
 	_tiro.image_speed = 10;
 	//definindo a direção, ou seja, sempre indo para cima
@@ -119,13 +119,13 @@ tiro1 = function(){
 tiro2 = function(){
 	//um deles vai ficar mais pra esquerda
 	var primeiro_tiro = instance_create_layer(x-10, y,"Tiro", obj_tiro);
-	primeiro_tiro.speed = 10;
+	//primeiro_tiro.speed = 10;
 	primeiro_tiro.direction = 90;
 	primeiro_tiro.image_speed = 10;
 
 	//e o outro vai ficar mais pra direita
 	var segundo_tiro = instance_create_layer(x+10, y, "tiro", obj_tiro);	
-	segundo_tiro.speed = 10;
+	//segundo_tiro.speed = 10;
 	segundo_tiro.direction = 90;
 	segundo_tiro.image_speed = 10;
 }
