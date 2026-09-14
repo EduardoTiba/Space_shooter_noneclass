@@ -22,6 +22,12 @@ timer_invencivel = 0;
 //qual tipo de tiro eu estou agora
 level_tiro = 1;
 
+//variáveis que serão usadas para armazenar a escala da sprite do pleier
+xscale = 1;
+yscale = 1;
+/* Não posso usar as variáveis locais, image_xscale e image_yscale, porque
+elas alteram a colisão também */
+
 #endregion
 
 #region Método movimentação e de tiro 
@@ -74,10 +80,13 @@ controla_player =  function(){
 	
 	//Ao apertar o espaço, será criado um tiro
 	if (_atirar)
-	{
+	{		
 		//Mas, só pode atirar se o intervalo entre os tiros já passou
 		if (alarm[0] <= 0)
-		{			
+		{	
+			//Mudando apenas a escala da sprite do pleier quando ele atira
+			xscale = 0.8;
+			yscale = 1.2;
 			//ligando a variável "level_tiro" com os três tipos de tiro
 			if (level_tiro == 1)
 			{
