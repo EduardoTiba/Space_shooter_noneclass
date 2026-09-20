@@ -13,7 +13,8 @@ escudo_atual = noone;
 
 //tempo de intervalo dos tiro
 intervalo = 10;
-
+//Eu levei um dano?
+tomei_dano = 0;
 //tempo de invencibilidade do player, ou seja, o tempo em frames que ficará sem tomar dano
 tempo_invencivel = game_get_speed(gamespeed_fps);
 //timer de invencibilidade, inicia em 0, pois ao iniciar o jogo, não terá invencibilidade para o jogador
@@ -183,6 +184,13 @@ perde_vida = function(){
 	
 	//só toma dano se não estiver invencível
 	if (timer_invencivel > 0) { return }
+	
+	//O player tomou dano
+	tomei_dano = 3;
+	/* Não é "true", pois como o gamemaker considera números positivos como "true"  
+	nós usaremos essa variável para ser o timer de piscar branco e para sinalizar
+	que levou dano.
+	Simplismente genial */
 	
 	//Sempre quando tomar dano, vai ter o stretch squash
 	stretch_squash_value(1.4, 0.8);
