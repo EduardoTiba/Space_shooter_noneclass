@@ -184,6 +184,9 @@ perde_vida = function(){
 	//só toma dano se não estiver invencível
 	if (timer_invencivel > 0) { return }
 	
+	//Sempre quando tomar dano, vai ter o stretch squash
+	stretch_squash_value(1.4, 0.8);
+	
 		//perda de vida só é possível se for maior que 0
 		if (vida > 0)
 		{
@@ -191,7 +194,9 @@ perde_vida = function(){
 			//após isso, o timer em invencibilidade inicia
 			timer_invencivel = tempo_invencivel;
 			
+			//tremedeira de tomar dano (olhe nos scripts se estiver confuso)
 			screenshake(10);
+			
 		}
 		
 		//se a vida for menor ou igual a 0, então a nave do player se destrói
