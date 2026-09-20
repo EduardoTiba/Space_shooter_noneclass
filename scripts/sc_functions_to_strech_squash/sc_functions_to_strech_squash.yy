@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_functions_to_strech_squash",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_functions_to_strech_squash",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
