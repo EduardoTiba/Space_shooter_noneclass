@@ -1,9 +1,7 @@
 //controlando o player e checando suas outras propriedades com o método
 controla_player();
 
-//As variáveis da escala usadas para a escala da sprite voltam para 1 (original)
-xscale = lerp(xscale, 1, 0.4);
-yscale = lerp(yscale, 1, 0.4);
+end_stretch_squash();
 
 ////após o jogador tomar dano, ele ficará 60 frames com a alternância entre sua cor padrâo e vermelho
 //if (timer_invencivel > 0) 

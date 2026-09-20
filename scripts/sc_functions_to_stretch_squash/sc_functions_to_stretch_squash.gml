@@ -1,5 +1,5 @@
 //Essa função inicia as variáveis necessárias para o efeito
-function stretch_squash_variaveis(){
+function stretch_squash_variables(){
 	
 	//iniciando as variáveis necessárias para começar o evento
 	xscale = 1;
@@ -19,4 +19,10 @@ function drawing_stretch_squash(){
 	draw_sprite_ext(sprite_index, image_index, x, y, xscale, yscale, image_angle, image_blend, image_alpha);
 	/* Esse draw sprite rodará a todo momento, por isso que apagamos o draw_self. Mas, vamos alterar as variáveis
 	"xscale" e "yscale" para somente alterar a escala da sprite e não a colisão */
+}
+
+function end_stretch_squash(){
+		//As variáveis da escala usadas para a escala da sprite voltam para 1 (original)
+		xscale = lerp(xscale, 1, 0.4);
+		yscale = lerp(yscale, 1, 0.4);
 }

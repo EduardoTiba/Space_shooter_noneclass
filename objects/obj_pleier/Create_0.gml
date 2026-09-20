@@ -23,7 +23,7 @@ timer_invencivel = 0;
 level_tiro = 1;
 
 //essa função inicia as variáveis necessárias pro efeito stretch squash
-stretch_squash_variaveis();
+stretch_squash_variables();
 /* Não posso usar as variáveis locais, image_xscale e image_yscale, porque
 elas alteram a colisão também */
 
