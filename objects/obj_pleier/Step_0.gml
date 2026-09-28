@@ -2,7 +2,7 @@
 controla_player();
 
 end_stretch_squash();
-
+contador_para_fim_efeito_branco();
 ////após o jogador tomar dano, ele ficará 60 frames com a alternância entre sua cor padrâo e vermelho
 //if (timer_invencivel > 0) 
 //{
