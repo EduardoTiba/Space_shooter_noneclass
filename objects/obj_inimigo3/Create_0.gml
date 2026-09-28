@@ -18,6 +18,11 @@ contador_dos_tiros = 0;
 decide_direcao_saida = false;
 /* Será usada no estado de "fugindo" */
 
+//definindo as variáveis para o efeito de apertar (squash and stretch)
+stretch_squash_variables();
+//definindo variáveis para o efeito branco
+inicia_efeito_branco();
+
 #region Métodos
 
 //máquina de estados
@@ -149,6 +154,9 @@ maquina_de_estados = function(){
 
 //método dos efeitos no inimigo 3 quando ele tomar dano
 tomando_dano = function(){
+	//efeitos de tomar dano
+	stretch_squash_value(1.3, 0.8);
+	timer_efeito_branco(2);
 	
 	//se o inimigo 3 tem mais que 0 de vida, então ele pode tomar dano
 	if (vida > 0)

@@ -14,3 +14,16 @@ function timer_efeito_branco(_tempo = 1){
 function contador_para_fim_efeito_branco(){
 	if (tomei_dano > 0) { tomei_dano-- }
 }
+
+function desenha_efeito(_function = draw_self){
+	if (tomei_dano)
+	{
+		shader_set(sh_white_effect);
+		_function();
+		shader_reset();
+	}
+	else
+	{
+		_function();
+	}
+}
