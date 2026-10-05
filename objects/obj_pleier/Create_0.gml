@@ -94,6 +94,9 @@ controla_player =  function(){
 			//dando o valor para o efeito de stretch squash
 			stretch_squash_value(0.8, 1.2);
 			
+			//tocando o som de atirando
+			sound_effect(sfx_atirando, 1, false, 0.4, 0.7);
+			
 			//ligando a variável "level_tiro" com os três tipos de tiro
 			if (level_tiro == 1)
 			{
