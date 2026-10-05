@@ -27,7 +27,10 @@ alarm[0] = timer_disparo_inicial;
 
 //método para a criação do tiro
 atirando = function(){
+	//tocando o som de atirando
+	sound_effect(sfx_atirando, 1, false, 0.8, 1);
 	
+	//criando o tiro
 	var _tiro_inimigo1 = instance_create_layer(x, y, "Tiro", obj_tiro_inimigo1);
 	_tiro_inimigo1.vspeed = 4;
 }

@@ -77,6 +77,8 @@ maquina_de_estados = function(){
 		
 		case "atirando":
 		{
+			sound_effect(sfx_atirando, 1, false, 0.3, 0.5);
+			
 			//só poderá atirar se o jogador não tiver sido destruído, para evitar o erro do pleier morrer e ele continuar procurando o x e y dele pra atirar
 			if (instance_exists(obj_pleier))
 			{
@@ -103,6 +105,7 @@ maquina_de_estados = function(){
 		
 		case "atirando 2":
 		{
+			sound_effect(sfx_atirando, 1, false, 0.3, 0.5);
 		/* O tiro 2 ele vai ser criado três vezes, esquerda, centro e direita */
 		
 		//O primeiro valor desta variável será do angulo do tiro da esquerda
