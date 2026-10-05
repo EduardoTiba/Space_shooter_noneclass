@@ -174,6 +174,9 @@ destruido = function(){
 		//criando a partícula de destruição
 		instance_create_layer(x, y, "Explosao", obj_explosao_inimigo);
 		
+		//tocando efeito sonoro de explosão
+		sound_effect(sfx_explosion, 1, false, 0.2, 0.6);
+		
 		//chance de spawn de power up é maior
 		//Quando a nave inimiga for destruída, tem uma chance de 30% de gerar um power up
 		randomise();

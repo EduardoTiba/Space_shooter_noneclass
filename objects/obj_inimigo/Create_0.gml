@@ -38,6 +38,9 @@ destruido = function(){
 	//Ao colidir com o player, a nave se destrói e cria a partícula, respectivamente
 	instance_destroy();
 	instance_create_layer(x, y, "Explosao", obj_explosao_inimigo);
+	
+	//tocando o efeito sonoro
+	sound_effect(sfx_explosion, 1, false, 0.8, 1);
 
 	//Quando a nave inimiga for destruída, tem uma chance de 10% de gerar um power up
 	randomise();
