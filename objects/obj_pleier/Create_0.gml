@@ -1,6 +1,6 @@
 //iniciando a música, após parar qualquer som
 audio_stop_sound(snd_musica);
-audio_play_sound(snd_musica, 1, true);
+audio_play_sound(musica_fundo, 1, true);
 /* Parando a música antes de iniciar a música, pois sempre que o pleier for derrotado
 uma nova música toca com a antiga e fica uma bagunça */
 
