@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_partida",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_partida/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
