@@ -204,6 +204,8 @@ perde_vida = function(){
 		//perda de vida só é possível se for maior que 0
 		if (vida > 0)
 		{
+			sound_effect(sfx_hit, 2, false, 1, 1);
+			
 			vida--; 
 			//após isso, o timer em invencibilidade inicia
 			timer_invencivel = tempo_invencivel;

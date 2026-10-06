@@ -164,6 +164,8 @@ tomando_dano = function(){
 	//se o inimigo 3 tem mais que 0 de vida, então ele pode tomar dano
 	if (vida > 0)
 	{
+		sound_effect(sfx_hit, 2, false, 0.5, 0.6);
+		
 		//diminuindo a vida
 		vida--;
 	}		

@@ -60,6 +60,8 @@ tomando_dano = function(){
 	//toma dano somente se a vida for maior que 0
 	if (vida > 0) 
 	{
+		sound_effect(sfx_hit, 2, false, 0.6, 0.8); 
+		
 		//tomando dano
 		vida--; 
 		//Efeito em cor vermelha para sinalizar o dano
