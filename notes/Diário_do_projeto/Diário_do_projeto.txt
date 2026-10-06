@@ -100,3 +100,10 @@ Today we looked to built functions to the effects of damage, like stretch and sq
 king about a game, a space shooter with a flappy like. I already have done the prototype, that´s OK. However, I plan to first finish this project, then I do my game. I have
 lots of thoughts about this new idea, music, sound effects, visual effects, and a cool gameplay.
 That´s all for now, hope that you, who´s reading this, can have a good day.
+
+04/10/26 day 18
+Hello, I´m almost finishing the classes of space shooter and I´m pretty happy. 
+Today we have worked in sound effect and music stuff, I made my own-well-working-function-of-sounds, that´s really cute to use. Until now, everything is going very good, in 30
+classes I will have finished. I learned a bunch of things here, hope that I´ll use something.
+No more to write, I really need to sleep. Right now it´s 22:21, and tomorrow I have math class at 8:40 am, :)
+Bye.
