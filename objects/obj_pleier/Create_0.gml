@@ -219,7 +219,9 @@ perde_vida = function(){
 		if (vida <= 0) 
 		{
 			instance_destroy();
-			screenshake(60);	
+			screenshake(60);
+			
+			instance_create_layer(x, y, layer, obj_explosao_player);
 		}
 
 }

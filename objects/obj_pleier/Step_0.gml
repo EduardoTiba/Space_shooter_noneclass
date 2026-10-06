@@ -22,7 +22,6 @@ contador_para_fim_efeito_branco();
 if (keyboard_check_pressed(vk_enter)) 
 {
 	perde_vida();
-	if (vida <= 0) { room_restart() }
 }
 
 //Se clicar no tab, vai poder aparecer ou desaparecer o debug dos levels dos tiros
