@@ -95,7 +95,7 @@ controla_player =  function(){
 			stretch_squash_value(0.8, 1.2);
 			
 			//tocando o som de atirando
-			sound_effect(sfx_atirando, 1, false, 0.4, 0.7);
+			sound_effect(sfx_atirando, 1, false, 1, 1);
 			
 			//ligando a variável "level_tiro" com os três tipos de tiro
 			if (level_tiro == 1)
@@ -231,6 +231,9 @@ usa_escudo = function(){
 		//só pode perder o escudo se ele for maior que 0 e só pode criar o escudo se não tiver um escudo atual
 		if (escudo > 0) and (escudo_atual == noone)
 		{
+			//tocando o efeito sonoro
+			sound_effect(sfx_escudo, 1, false, 1, 1);
+			
 			escudo--;
 			//criando o escudo na posição do pleier
 			escudo_atual = instance_create_layer(x, y, "Escudo", obj_escudo);

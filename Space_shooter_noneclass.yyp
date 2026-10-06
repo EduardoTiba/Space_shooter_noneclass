@@ -64,6 +64,8 @@
     {"id":{"name":"sq_wave2","path":"sequences/sq_wave2/sq_wave2.yy",},},
     {"id":{"name":"sh_white_effect","path":"shaders/sh_white_effect/sh_white_effect.yy",},},
     {"id":{"name":"sfx_atirando","path":"sounds/sfx_atirando/sfx_atirando.yy",},},
+    {"id":{"name":"sfx_escudo_destruido","path":"sounds/sfx_escudo_destruido/sfx_escudo_destruido.yy",},},
+    {"id":{"name":"sfx_escudo","path":"sounds/sfx_escudo/sfx_escudo.yy",},},
     {"id":{"name":"sfx_explosion","path":"sounds/sfx_explosion/sfx_explosion.yy",},},
     {"id":{"name":"snd_musica","path":"sounds/snd_musica/snd_musica.yy",},},
     {"id":{"name":"spr_bg_0","path":"sprites/spr_bg_0/spr_bg_0.yy",},},
