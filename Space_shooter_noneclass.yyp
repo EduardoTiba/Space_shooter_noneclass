@@ -36,6 +36,7 @@
   },
   "name":"Space_shooter_noneclass",
   "resources":[
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"Diário_do_projeto","path":"notes/Diário_do_projeto/Diário_do_projeto.yy",},},
     {"id":{"name":"debugador","path":"objects/debugador/debugador.yy",},},
     {"id":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},},
@@ -70,6 +71,7 @@
     {"id":{"name":"sfx_escudo","path":"sounds/sfx_escudo/sfx_escudo.yy",},},
     {"id":{"name":"sfx_explosion","path":"sounds/sfx_explosion/sfx_explosion.yy",},},
     {"id":{"name":"sfx_hit","path":"sounds/sfx_hit/sfx_hit.yy",},},
+    {"id":{"name":"sfx_zap","path":"sounds/sfx_zap/sfx_zap.yy",},},
     {"id":{"name":"snd_musica","path":"sounds/snd_musica/snd_musica.yy",},},
     {"id":{"name":"spr_bg_0","path":"sprites/spr_bg_0/spr_bg_0.yy",},},
     {"id":{"name":"spr_bg_1","path":"sprites/spr_bg_1/spr_bg_1.yy",},},
