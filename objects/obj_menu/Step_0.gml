@@ -11,4 +11,4 @@ if (keyboard_check_pressed(vk_up))
 }
 
 //limitando até onde pode ir nas opções
-actual_option = clamp(actual_option, 0, 2);
+actual_option = clamp(actual_option, 0, array_length(menu_options)-1);

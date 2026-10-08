@@ -5,7 +5,7 @@ var _y_draw = display_get_gui_height();
 draw_set_valign(1);
 
 //repetindo a função para desenhar as três strings da array
-for (var i = 0; i < 3; i++)
+for (var i = 0; i < array_length(menu_options); i++)
 {
 	//iniciando a variável de cor do texto
 	var _cor = c_white;
