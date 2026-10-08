@@ -7,7 +7,7 @@ draw_set_valign(1);
 //repetindo a função para desenhar as três strings da array
 for (var i = 0; i < 3; i++)
 {
-	draw_text(20, _y_draw/2, menu_options[i]);
+	draw_text(20, _y_draw/2 + i*20, menu_options[i]);
 } 
 
 //resetando os draw set
