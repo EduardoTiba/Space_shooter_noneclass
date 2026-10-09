@@ -1,3 +1,6 @@
+//redefinindo o nome da função
+pressionou = keyboard_check_pressed;
+
 menu_options = ["JOGAR", "TUTORIAL", "SAIR"];
 actual_option = 0;
 
@@ -32,6 +35,43 @@ controla_menu = function(){
 	
 	//efeito lerp para mover a opção selecionada
 	pos_x_quando_selecionado = lerp(pos_x_quando_selecionado, 40, 0.1);
+	
+	
+	//Trocando de sala
+	switch(actual_option)
+	{
+		//opção "jogar"
+		case 0:	
+		{
+			if (pressionou(vk_enter))
+			{
+					
+			}
+		}
+		break;
+		
+		//opção "tutorial"
+		case 1:
+		{	
+			if (pressionou(vk_enter))
+			{
+			
+			}
+		}
+		break;
+		
+		//opção "sair"
+		case 2: 
+		{
+			if (pressionou(vk_enter))
+			{
+				//fechando o jogo
+				game_end();
+			}
+		}
+		break;
+	}
+
 }
 
 desenha_menu = function(){
