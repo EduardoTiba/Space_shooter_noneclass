@@ -9,8 +9,8 @@
   "name":"obj_explosao_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Explosões",
+    "path":"folders/Objects/Explosões.yy",
   },
   "parentObjectId":null,
   "persistent":false,

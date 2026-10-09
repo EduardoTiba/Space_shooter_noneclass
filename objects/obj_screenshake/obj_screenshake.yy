@@ -10,8 +10,8 @@
   "name":"obj_screenshake",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Agentes",
+    "path":"folders/Objects/Agentes.yy",
   },
   "parentObjectId":null,
   "persistent":false,

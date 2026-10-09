@@ -8,8 +8,8 @@
   "name":"obj_particula_tiro",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Explosões",
+    "path":"folders/Objects/Explosões.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -26,8 +26,8 @@
   },
   "name":"sq_transicao_in",
   "parent":{
-    "name":"Sequences",
-    "path":"folders/Sequences.yy",
+    "name":"Transições",
+    "path":"folders/Sequences/Transições.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,

@@ -26,8 +26,8 @@
   },
   "name":"sq_wave2",
   "parent":{
-    "name":"Sequences",
-    "path":"folders/Sequences.yy",
+    "name":"Waves",
+    "path":"folders/Sequences/Waves.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,
