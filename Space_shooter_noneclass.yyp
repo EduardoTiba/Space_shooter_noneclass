@@ -62,6 +62,7 @@
     {"id":{"name":"sc_function_sound_effect","path":"scripts/sc_function_sound_effect/sc_function_sound_effect.yy",},},
     {"id":{"name":"sc_functions_to_stretch_squash","path":"scripts/sc_functions_to_stretch_squash/sc_functions_to_stretch_squash.yy",},},
     {"id":{"name":"sc_functions","path":"scripts/sc_functions/sc_functions.yy",},},
+    {"id":{"name":"sq_transicao_in","path":"sequences/sq_transicao_in/sq_transicao_in.yy",},},
     {"id":{"name":"sq_transicao_out","path":"sequences/sq_transicao_out/sq_transicao_out.yy",},},
     {"id":{"name":"sq_wave1","path":"sequences/sq_wave1/sq_wave1.yy",},},
     {"id":{"name":"sq_wave1b","path":"sequences/sq_wave1b/sq_wave1b.yy",},},
