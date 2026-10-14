@@ -12,7 +12,7 @@ pos_x_quando_selecionado = 0;
 
 controla_menu = function(){
 	//Ao apertar para baixo, desce nas opções do menu
-	if (keyboard_check_pressed(vk_down))
+	if (pressionou(vk_down))
 	{
 		actual_option++;
 		sound_effect(sfx_zap, 1, false, 0.7, 1);
@@ -22,7 +22,7 @@ controla_menu = function(){
 	}
 	
 	//Ao apertar para cima, sobe nas opções
-	if (keyboard_check_pressed(vk_up))
+	if (pressionou(vk_up))
 	{
 		actual_option--;
 		sound_effect(sfx_zap, 1, false, 0.8, 1);
@@ -45,7 +45,8 @@ controla_menu = function(){
 		{
 			if (pressionou(vk_enter))
 			{
-					
+				//criando a transição de fade out
+				layer_sequence_create("Transicao", 0, 0, sq_transicao_out);	
 			}
 		}
 		break;
@@ -55,7 +56,8 @@ controla_menu = function(){
 		{	
 			if (pressionou(vk_enter))
 			{
-			
+				//fade out
+				layer_sequence_create("Transicao", 0, 0, sq_transicao_in);
 			}
 		}
 		break;
