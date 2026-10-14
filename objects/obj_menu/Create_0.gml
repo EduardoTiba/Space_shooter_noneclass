@@ -47,6 +47,9 @@ controla_menu = function(){
 			{
 				//criando a transição de fade out
 				layer_sequence_create("Transicao", 0, 0, sq_transicao_out);	
+				
+				//definindo que a próxima room será do jogo
+				global.destino = rm_partida;
 			}
 		}
 		break;
@@ -58,6 +61,9 @@ controla_menu = function(){
 			{
 				//fade out
 				layer_sequence_create("Transicao", 0, 0, sq_transicao_in);
+				
+				//indo para a room do tutorial
+				global.destino = rm_tutorial;
 			}
 		}
 		break;

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_functions",
+  "%Name":"sc_global_variables",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_functions",
+  "name":"sc_global_variables",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
