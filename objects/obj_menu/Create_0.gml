@@ -60,7 +60,7 @@ controla_menu = function(){
 			if (pressionou(vk_enter))
 			{
 				//fade out
-				layer_sequence_create("Transicao", 0, 0, sq_transicao_in);
+				layer_sequence_create("Transicao", 0, 0, sq_transicao_out);
 				
 				//indo para a room do tutorial
 				global.destino = rm_tutorial;

@@ -152,7 +152,10 @@
           ],"name":"scale","resourceType":"GMRealTrack","resourceVersion":"2.0","trackColour":4282936050,"tracks":[],"traits":0,},
       ],"traits":0,},
   ],
-  "visibleRange":null,
+  "visibleRange":{
+    "x":0.0,
+    "y":29.9999,
+  },
   "volume":1.0,
   "xorigin":-144,
   "yorigin":-256,

@@ -1,1 +1,1 @@
-//show_debug_message(obj_inimigo3.vida);
+show_debug_message(global.destino);
