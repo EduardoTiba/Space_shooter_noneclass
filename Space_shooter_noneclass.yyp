@@ -44,6 +44,7 @@
   "name":"Space_shooter_noneclass",
   "resources":[
     {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"fnt_tutorial","path":"fonts/fnt_tutorial/fnt_tutorial.yy",},},
     {"id":{"name":"Diário_do_projeto","path":"notes/Diário_do_projeto/Diário_do_projeto.yy",},},
     {"id":{"name":"debugador","path":"objects/debugador/debugador.yy",},},
     {"id":{"name":"obj_escudo","path":"objects/obj_escudo/obj_escudo.yy",},},
@@ -60,6 +61,7 @@
     {"id":{"name":"obj_tiro_inimigo3_tipo1","path":"objects/obj_tiro_inimigo3_tipo1/obj_tiro_inimigo3_tipo1.yy",},},
     {"id":{"name":"obj_tiro_inimigo3_tipo2","path":"objects/obj_tiro_inimigo3_tipo2/obj_tiro_inimigo3_tipo2.yy",},},
     {"id":{"name":"obj_tiro","path":"objects/obj_tiro/obj_tiro.yy",},},
+    {"id":{"name":"obj_tutorial","path":"objects/obj_tutorial/obj_tutorial.yy",},},
     {"id":{"name":"obj_waves","path":"objects/obj_waves/obj_waves.yy",},},
     {"id":{"name":"rm_inicio","path":"rooms/rm_inicio/rm_inicio.yy",},},
     {"id":{"name":"rm_partida","path":"rooms/rm_partida/rm_partida.yy",},},
